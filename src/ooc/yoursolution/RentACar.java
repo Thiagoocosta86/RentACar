@@ -9,6 +9,10 @@ package ooc.yoursolution;
  *
  * @author thiag
  */
+//Full Name: Thiago de Oliveira da Costa
+//Student ID: 2020005
+//Git Repository: https://github.com/Thiagoocosta86/RentACar
+
 public class RentACar {
     
 }
