@@ -16,7 +16,23 @@ public class BookingSystem implements BookingSystemInterface{
 
     @Override
     public RentACarInterface setupRentACar(BufferedReader in) throws IOException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
+        String NumberOfCars = in.readLine();
+        String Make = "";
+        
+        RentACarInterface rentACar = new RentACar();
+        
+        while (NumberOfCars != null){
+            Make = in.readLine();
+            
+            Car cars = new Car();
+            
+            rentACar.getNumberOfCars();
+            rentACar.getName();
+            NumberOfCars = in.readLine();
+        }
+        return rentACar;
+        
     }
     
 }
