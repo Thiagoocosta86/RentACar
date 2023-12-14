@@ -1,2 +1,2 @@
 # RentACar
- CA1 Object Oriented Constructs
+Rental Car application.
